@@ -11,5 +11,8 @@
  * file per style scope.
  */
 
+@import "bootstrap_overrides";
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+.navbar-brand { font-weight: bold; }
